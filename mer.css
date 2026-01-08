@@ -1,0 +1,72 @@
+.page-detail {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.hero-interne {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 40px;
+}
+
+/* Background spécifique (tu peux mettre l'image de Tyr ici) */
+.mer-bg {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/merr.jpg");
+}
+
+.content-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.destination-card {
+    display: flex;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.destination-card img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.destination-card .desc {
+    padding: 20px;
+}
+
+.destination-card h3 {
+    margin-bottom: 10px;
+    color: #222831;
+}
+
+.back-home {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn-back {
+    text-decoration: none;
+    background: #222831;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 50px;
+    transition: background 0.3s;
+}
+
+.btn-back:hover {
+    background: #00adb5;
+}
